@@ -1,0 +1,21 @@
+name: paperflow
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools>=68
+  - wheel
+  - tk
+  - conda-forge::pandoc=3.8.3
+  - pip:
+      - python-docx==1.2.0
+      - lxml==6.0.2
+      - Pillow==12.0.0
+      - PyMuPDF==1.28.2
+      - pywin32==311
+      - matplotlib==3.10.8
+      - mcp==1.30.0
+variables:
+  PYTHONNOUSERSITE: "1"

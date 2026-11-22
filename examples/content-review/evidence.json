@@ -1,0 +1,16 @@
+{
+  "evidence": [
+    {
+      "id": "exp-001",
+      "kind": "experiment",
+      "text": "控制器关闭时峰值位移 12.50 mm，开启时为 9.75 mm。开启时仍观察到可测位移。",
+      "locator": "trial-log.txt:7"
+    },
+    {
+      "id": "exp-002",
+      "kind": "experiment",
+      "text": "仅记录这一台试验台在该预设激励下的位移。未记录其他类型结构，也未进行疲劳寿命试验。",
+      "locator": "trial-log.txt:10"
+    }
+  ]
+}

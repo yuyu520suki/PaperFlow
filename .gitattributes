@@ -1,0 +1,9 @@
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.pdf binary
+*.docx binary
+# Portable review plans record the exact bytes of the example manuscript and evidence.
+examples/content-review/manuscript.md text eol=lf
+examples/content-review/evidence.json text eol=lf

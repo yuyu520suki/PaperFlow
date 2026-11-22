@@ -1,0 +1,27 @@
+# Project source only. Keep local manuscripts, job state, personal library records
+# and the publisher's saved guide out of the public repository.
+/output/
+/dist/
+/.paperflow/
+/build/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.env
+.env.*
+*.log
+~$*
+/Guide for authors*.pdf
+/references/**/guide-extracted.txt
+/references/**/qa/
+/docs/style-installation-*.json
+/docs/style-verification-*.json
+/docs/*validation-*.json
+/docs/zotero_integration.md
+/docs/开发历史说明.md
+/docs/交付验收清单.md
+/来源_*.md
+/论文全工作流_需求基线.md
+/templates/*.inventory.json

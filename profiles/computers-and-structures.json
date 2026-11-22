@@ -1,0 +1,1046 @@
+{
+  "schema_version": 1,
+  "profile_type": "journal_author_guide_requirements",
+  "id": "computers-and-structures",
+  "journal": {
+    "title": "Computers & Structures",
+    "issn": "0045-7949",
+    "publisher": "Elsevier"
+  },
+  "source": {
+    "type": "user_supplied_printed_author_guide",
+    "pdf_sha256": "9cf58337f2079629d0d92ae4ee6b5bc06424a79144c9f46784df123c4297a2f9",
+    "pdf_page_count": 19,
+    "pdf_creation_utc": "2026-11-04T12:02:57Z",
+    "extracted_on": "2026-11-04",
+    "page_numbers": "1-based PDF pages",
+    "publisher_last_updated": null,
+    "page_url": "https://www.sciencedirect.com/journal/computers-and-structures/publish/guide-for-authors"
+  },
+  "authority": {
+    "scope": "author manuscript preparation and submission",
+    "published_article_pdf_layout_used": false,
+    "guide_webpage_print_typography_used": false,
+    "not_a_docx_template": true,
+    "default_fonts_or_margins_invented": false
+  },
+  "requirements": [
+    {
+      "id": "competing-interests-declaration",
+      "category": "submission",
+      "requirement_level": "required",
+      "value": {
+        "complete_publisher_declarations_tool": true,
+        "select_nothing_to_declare_if_applicable": true,
+        "upload_separate_word_file": true,
+        "extensions": [
+          ".doc",
+          ".docx"
+        ],
+        "author_signatures_required": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "section": "Declaration of competing interests"
+      },
+      "notes": "Page 5 directs authors to upload the resulting Word declaration, including when they select the option indicating that they have nothing to declare. Manuscript text alone cannot verify completion of this submission requirement."
+    },
+    {
+      "id": "funding-disclosure",
+      "category": "submission",
+      "requirement_level": "instruction",
+      "value": {
+        "disclose_funding_sources": true,
+        "declare_sponsor_role_or_lack_of_involvement": true,
+        "include_no_funding_statement_if_applicable": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          5
+        ],
+        "section": "Funding sources"
+      },
+      "notes": "The same section asks authors to describe sponsor involvement or state its absence and provides wording for research with no funding. Authors must confirm the underlying funding and sponsor facts."
+    },
+    {
+      "id": "generative-ai-disclosure",
+      "category": "submission",
+      "requirement_level": "conditional_instruction",
+      "value": {
+        "applies_when": "Qualifying generative AI or AI-assisted tools were used in manuscript preparation",
+        "timing": "First submission",
+        "location": "New section before the reference list",
+        "basic_grammar_spelling_and_reference_tools_exempt": true,
+        "specialist_assistive_technology_used_solely_for_accessibility_exempt": true,
+        "statement_needed_if_nothing_to_disclose": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "section": "Declaration of generative AI use"
+      },
+      "notes": "The example includes the tool or service, reason for use, and author review and responsibility. Whether the requirement applies depends on the authors' actual use."
+    },
+    {
+      "id": "source-editable",
+      "category": "submission",
+      "requirement_level": "required",
+      "value": {
+        "word_extensions": [
+          ".doc",
+          ".docx"
+        ],
+        "latex_extension": ".tex",
+        "pdf_accepted_as_source": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          8
+        ],
+        "section": "Writing and formatting > File format"
+      }
+    },
+    {
+      "id": "word-columns",
+      "category": "layout",
+      "requirement_level": "required",
+      "value": {
+        "word_columns": 1,
+        "double_column_allowed_for": "LaTeX submissions only"
+      },
+      "evidence": {
+        "pdf_pages": [
+          8
+        ],
+        "section": "File format"
+      }
+    },
+    {
+      "id": "remove-decorative-markup",
+      "category": "formatting",
+      "requirement_level": "instruction",
+      "value": {
+        "remove": [
+          "strikethrough",
+          "underline"
+        ],
+        "exception": "scientifically relevant"
+      },
+      "evidence": {
+        "pdf_pages": [
+          8
+        ],
+        "section": "File format"
+      }
+    },
+    {
+      "id": "title-page",
+      "category": "structure",
+      "requirement_level": "required",
+      "value": {
+        "includes": [
+          "concise informative title",
+          "all author given and family names",
+          "affiliations below author names",
+          "full affiliation postal address including country",
+          "identified corresponding author",
+          "corresponding author email"
+        ],
+        "affiliation_markers": "lowercase superscript letters",
+        "present_address_markers": "superscript Arabic numerals"
+      },
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "section": "Title page"
+      },
+      "notes": "Details are listed in full on PDF page 9. Present/permanent address applies when an author has changed affiliation or was visiting."
+    },
+    {
+      "id": "abstract-length",
+      "category": "abstract",
+      "requirement_level": "required",
+      "value": {
+        "max_words": 250,
+        "standalone": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "section": "Abstract"
+      }
+    },
+    {
+      "id": "abstract-citations",
+      "category": "abstract",
+      "requirement_level": "guideline",
+      "value": {
+        "avoid_references": true,
+        "if_essential": "cite authors and years"
+      },
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "section": "Abstract"
+      },
+      "notes": "The separate References section on page 15 also says references cited in the abstract must be given in full. A complete citation must not be omitted from the reference list."
+    },
+    {
+      "id": "keywords",
+      "category": "keywords",
+      "requirement_level": "required",
+      "value": {
+        "min_count": 1,
+        "max_count": 7,
+        "language": "English"
+      },
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "section": "Keywords"
+      }
+    },
+    {
+      "id": "highlights-optional",
+      "category": "highlights",
+      "requirement_level": "encouraged",
+      "value": {
+        "required": false,
+        "separate_editable_file": true,
+        "filename_contains": "highlights"
+      },
+      "evidence": {
+        "pdf_pages": [
+          9
+        ],
+        "section": "Highlights"
+      },
+      "notes": "Page 9 instructs a separate editable file with 'highlights' in its filename when supplied."
+    },
+    {
+      "id": "highlights-limits",
+      "category": "highlights",
+      "requirement_level": "conditional_guideline",
+      "value": {
+        "min_bullets": 3,
+        "max_bullets": 5,
+        "max_characters_per_bullet": 85,
+        "spaces_count": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Highlights"
+      },
+      "notes": "Applies when highlights are supplied; not a mandatory section of the manuscript."
+    },
+    {
+      "id": "units-si",
+      "category": "content",
+      "requirement_level": "required",
+      "value": {
+        "units": "SI",
+        "non_si_requires_si_equivalent": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Units"
+      }
+    },
+    {
+      "id": "equations-editable",
+      "category": "equations",
+      "requirement_level": "instruction",
+      "value": {
+        "editable_text": true,
+        "images_acceptable": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Math formulae"
+      },
+      "notes": "No editor or MathType format is named in this guide. The user's separate requirement for native MathType remains in the workflow scope."
+    },
+    {
+      "id": "equations-typography",
+      "category": "equations",
+      "requirement_level": "guideline",
+      "value": {
+        "simple_formulae_inline_when_possible": true,
+        "small_fractions": "solidus /",
+        "variables": "italic",
+        "powers_of_e": "exp"
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Math formulae"
+      },
+      "notes": "The same section gives the inline, solidus and exp instructions."
+    },
+    {
+      "id": "equations-numbering",
+      "category": "equations",
+      "requirement_level": "instruction",
+      "value": {
+        "display_separately": true,
+        "body_numbering": "consecutive in the order referred to in the text"
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Math formulae"
+      }
+    },
+    {
+      "id": "tables-editable",
+      "category": "tables",
+      "requirement_level": "required",
+      "value": {
+        "editable_text": true,
+        "images_acceptable": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Tables"
+      }
+    },
+    {
+      "id": "tables-callouts-numbering",
+      "category": "tables",
+      "requirement_level": "guideline",
+      "value": {
+        "all_cited_in_text": true,
+        "numbering": "consecutive by appearance in text",
+        "captions": true,
+        "notes_position": "below table body",
+        "avoid_vertical_rules": true,
+        "avoid_cell_shading": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Tables"
+      },
+      "notes": "Page 10 separately directs citing all tables, consecutive numbering, captions and table notes below the body. It does not mandate an exact three-line table design."
+    },
+    {
+      "id": "tables-placement-specific",
+      "category": "tables",
+      "requirement_level": "journal_specific_instruction",
+      "value": {
+        "next_to_relevant_text": true,
+        "end_of_article_separate_pages": true,
+        "operator": "AND",
+        "one_item_per_page": null
+      },
+      "evidence": {
+        "pdf_pages": [
+          14
+        ],
+        "section": "Journal specific information: Writing and formatting"
+      },
+      "notes": "Overrides the general OR alternative on page 10. The text does not explicitly require exactly one table per page."
+    },
+    {
+      "id": "figures-placement-specific",
+      "category": "figures",
+      "requirement_level": "journal_specific_instruction",
+      "value": {
+        "next_to_relevant_text": true,
+        "end_of_article_separate_pages": true,
+        "operator": "AND",
+        "one_item_per_page": null
+      },
+      "evidence": {
+        "pdf_pages": [
+          14
+        ],
+        "section": "Journal specific information: Writing and formatting"
+      },
+      "notes": "The text does not explicitly require exactly one figure per page."
+    },
+    {
+      "id": "figures-files-callouts",
+      "category": "figures",
+      "requirement_level": "instruction",
+      "value": {
+        "separate_files": true,
+        "all_cited_in_text": true,
+        "numbering": "appearance order",
+        "logical_filenames": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          10
+        ],
+        "section": "Figures, images, and other artwork"
+      },
+      "notes": "Separate figure files are additional to the journal-specific manuscript placement requirements on page 14."
+    },
+    {
+      "id": "figures-captions",
+      "category": "figures",
+      "requirement_level": "required",
+      "value": {
+        "caption_for_all": true,
+        "caption_components": [
+          "brief title",
+          "description"
+        ],
+        "title_on_figure_itself": false,
+        "symbols_and_abbreviations_explained": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "section": "Captions"
+      }
+    },
+    {
+      "id": "artwork-vectors",
+      "category": "figures",
+      "requirement_level": "format_guideline",
+      "value": {
+        "formats": [
+          "EPS",
+          "PDF"
+        ],
+        "font_requirement": "embed fonts or save text as graphics"
+      },
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "section": "Formats"
+      },
+      "notes": "Evidence is a table visually checked on PDF page 11."
+    },
+    {
+      "id": "artwork-photographs",
+      "category": "figures",
+      "requirement_level": "format_guideline",
+      "value": {
+        "formats": [
+          "TIFF",
+          "JPG",
+          "PNG"
+        ],
+        "min_dpi": 300,
+        "min_width_px": {
+          "single_column": 1063,
+          "full_page": 2244
+        }
+      },
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "section": "Formats"
+      },
+      "notes": "Pixel widths were read from the same table and verified in the page image. These image sizes do not authorize a two-column Word manuscript."
+    },
+    {
+      "id": "artwork-bitmap-lines",
+      "category": "figures",
+      "requirement_level": "format_guideline",
+      "value": {
+        "formats": [
+          "TIFF",
+          "JPG",
+          "PNG"
+        ],
+        "min_dpi": 1000,
+        "min_width_px": {
+          "single_column": 3543,
+          "full_page": 7480
+        }
+      },
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "section": "Formats"
+      },
+      "notes": "Pixel widths were read from the same table and verified in the page image."
+    },
+    {
+      "id": "artwork-charts-annotations",
+      "category": "figures",
+      "requirement_level": "format_guideline",
+      "value": {
+        "charts_and_large_or_shaded_tables": {
+          "formats": [
+            "XLS",
+            "XLSX"
+          ],
+          "clearly_readable": true
+        },
+        "annotated_images": {
+          "formats": [
+            "PPT",
+            "PPTX"
+          ],
+          "embedded_image_min_dpi": 300,
+          "text_legible": true
+        }
+      },
+      "evidence": {
+        "pdf_pages": [
+          11
+        ],
+        "section": "Formats"
+      },
+      "notes": "The separate annotated-images row specifies PPT/PPTX and minimum 300 dpi for embedded images. This does not cancel the page 10 guidance to avoid shading in manuscript table cells."
+    },
+    {
+      "id": "research-data-option-c",
+      "category": "research_data",
+      "requirement_level": "required",
+      "value": {
+        "data_policy_option": "C",
+        "deposit_in_relevant_repository": true,
+        "cite_and_link_dataset_in_article": true,
+        "explain_if_data_cannot_be_shared": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          13
+        ],
+        "section": "Research data deposit, citation and linking"
+      },
+      "notes": "Repository deposit, citation, and link information must be checked against the actual dataset. If sharing is not possible, authors must provide the reason."
+    },
+    {
+      "id": "data-availability-statement",
+      "category": "research_data",
+      "requirement_level": "encouraged",
+      "value": {
+        "state_data_availability_at_submission": true,
+        "may_provide_reason_through_submission_process": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          13
+        ],
+        "section": "Data statement"
+      },
+      "notes": "This encouraged statement is distinct from the journal's Option C instructions. The guide allows authors to state why data cannot be accessed or posted during the submission process."
+    },
+    {
+      "id": "section-numbering",
+      "category": "structure",
+      "requirement_level": "instruction",
+      "value": {
+        "number_sections": true,
+        "subsection_examples": [
+          "1.1",
+          "1.1.1",
+          "1.1.2",
+          "1.2"
+        ],
+        "abstract_numbered": false,
+        "headings_on_separate_line": true,
+        "cross_references_use_numbering": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          14
+        ],
+        "section": "Article sections"
+      },
+      "notes": "Page 14 separately excludes the abstract from section numbering and asks numbered cross-references."
+    },
+    {
+      "id": "acknowledgements-location",
+      "category": "structure",
+      "requirement_level": "instruction",
+      "value": {
+        "separate_section": true,
+        "position": "directly before reference list"
+      },
+      "evidence": {
+        "pdf_pages": [
+          14
+        ],
+        "section": "Acknowledgements"
+      }
+    },
+    {
+      "id": "appendix-numbering",
+      "category": "structure",
+      "requirement_level": "instruction",
+      "value": {
+        "labels": [
+          "A",
+          "B"
+        ],
+        "equation_examples": [
+          "Eq. (A.1)",
+          "Eq. (A.2)",
+          "Eq. (B.1)"
+        ],
+        "table_example": "Table A.1",
+        "figure_example": "Fig. A.1"
+      },
+      "evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "section": "Appendices"
+      },
+      "notes": "The following bullet specifies separate equation/table/figure numbering by appendix."
+    },
+    {
+      "id": "references-correspondence",
+      "category": "references",
+      "requirement_level": "instruction",
+      "value": {
+        "text_and_list_match_both_directions": true,
+        "real_existing_sources": true,
+        "metadata_complete": true,
+        "doi_where_available": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "section": "References within text"
+      },
+      "notes": "The same section calls for real, existing sources, correct and complete data, and DOIs where available."
+    },
+    {
+      "id": "references-initial-format",
+      "category": "references",
+      "requirement_level": "submission_flexibility",
+      "value": {
+        "strict_bibliographic_format_at_submission": false,
+        "consistent_style": true,
+        "complete_applicable_metadata": true,
+        "publisher_style_applied": "after acceptance at proof stage"
+      },
+      "evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "section": "Reference format"
+      },
+      "notes": "The following instructions still require consistency and applicable author/title/year/volume/article-number/page data; the guide then presents the target reference style."
+    },
+    {
+      "id": "references-inline-numbers",
+      "category": "references",
+      "requirement_level": "style_instruction",
+      "value": {
+        "citation_format": "inline square bracket numbers",
+        "reference_list_order": "first appearance in text"
+      },
+      "evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "section": "Reference style"
+      },
+      "notes": "The next paragraph requires numbering the reference list in the order of appearance in the text. This is not a superscript citation style."
+    },
+    {
+      "id": "references-details",
+      "category": "references",
+      "requirement_level": "style_instruction",
+      "value": {
+        "page_range_format": "shortened final page",
+        "more_than_six_authors": "first 6 then et al.",
+        "journal_abbreviations": "LTWA"
+      },
+      "evidence": {
+        "pdf_pages": [
+          16
+        ],
+        "section": "Reference style"
+      },
+      "notes": "The next instruction says to abbreviate journal names according to LTWA."
+    },
+    {
+      "id": "references-web",
+      "category": "references",
+      "requirement_level": "minimum_requirement",
+      "value": {
+        "full_url": true,
+        "last_accessed_date": true
+      },
+      "evidence": {
+        "pdf_pages": [
+          16
+        ],
+        "section": "Web references"
+      }
+    },
+    {
+      "id": "reference-manager-style",
+      "category": "references",
+      "requirement_level": "instruction",
+      "value": {
+        "use_relevant_journal_template_if_available": true,
+        "fallback": "guide examples if journal template unavailable"
+      },
+      "evidence": {
+        "pdf_pages": [
+          17
+        ],
+        "section": "Reference management software"
+      },
+      "notes": "The guide mentions CSL but does not specify an exact Zotero style identifier or endorse IEEE as equivalent."
+    },
+    {
+      "id": "reference-field-removal",
+      "category": "references",
+      "requirement_level": "publisher_recommendation",
+      "value": {
+        "remove_field_codes_advised": true,
+        "mandatory_wording": false,
+        "working_master_policy": null
+      },
+      "evidence": {
+        "pdf_pages": [
+          17
+        ],
+        "section": "Reference management software"
+      },
+      "notes": "Exact wording preserved. This is advice, not a must statement. The software workflow can preserve an editable working master and generate a separate submission copy; that separation is an implementation decision, not an explicit journal rule."
+    },
+    {
+      "id": "english-consistency",
+      "category": "language",
+      "requirement_level": "recommendation",
+      "value": {
+        "accepted_recommendations": [
+          "American English",
+          "British English"
+        ],
+        "mix_both": false
+      },
+      "evidence": {
+        "pdf_pages": [
+          19
+        ],
+        "section": "Language and editing services"
+      }
+    }
+  ],
+  "unspecified": [
+    {
+      "key": "font_family",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No body/heading font family is specified. The artwork table's font-embedding instruction is not a body font rule.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "font_size",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No fixed body/heading point sizes are specified.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "line_spacing",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No exact single/double/fixed-point line spacing is specified.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "page_size",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No paper size is specified for Word source.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "page_margins",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No numeric page margins are specified.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "headers_and_footers",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No manuscript running header/footer design or typography is specified.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "page_number_format",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No page-number placement or numbering format is specified.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "line_numbering",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No fixed line-numbering requirement was found.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "contents_and_lists",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No manuscript table of contents, list of figures or list of tables requirement was found.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "caption_position",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "Captions are required, but above/below placement of table/figure captions is not explicitly specified; table notes must be below the table body.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "one_figure_or_table_per_end_page",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "Separate end pages are stated, but exactly one item per page is not expressly stated.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "native_mathtype_required",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "MathType is not named; editable equations are required. Native MathType remains a separate user requirement.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "exact_zotero_style_id",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "No exact Zotero/CSL identifier is given in the PDF.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    },
+    {
+      "key": "official_docx_template",
+      "status": "not_specified_in_provided_guide",
+      "value": null,
+      "relevant_formatting_pages": [
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "reason": "The input is an author-guide PDF, not a supplied .docx/.dotx template. Availability of another official template is not established by this input.",
+      "reviewed_pdf_page_range": {
+        "first": 1,
+        "last": 19
+      }
+    }
+  ]
+}

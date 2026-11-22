@@ -1,0 +1,25 @@
+{
+  "template_kind": "project_authored_submission_template",
+  "not_an_official_publisher_docx": true,
+  "guide_sha256": "9cf58337f2079629d0d92ae4ee6b5bc06424a79144c9f46784df123c4297a2f9",
+  "official_rule_applied": {
+    "word_columns": 1
+  },
+  "author_defaults": {
+    "paper": "A4",
+    "margins_mm": 25.4,
+    "western_font": "Times New Roman",
+    "east_asian_font": "宋体",
+    "body_size_pt": 12,
+    "line_spacing": 1.5,
+    "heading_color": "000000",
+    "footer": "PAGE field",
+    "running_header": null
+  },
+  "slot": "{{PAPERFLOW_BODY}}",
+  "template_sha256": "dd1ff527591e000cca950de0083ca39a53af6f65ee33520a1042568bd5d0cf66",
+  "validation": {
+    "visual_reviewed": false,
+    "journal_rules_fully_validated": false
+  }
+}

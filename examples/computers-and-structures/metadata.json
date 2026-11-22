@@ -1,0 +1,10 @@
+{
+  "abstract": "This synthetic manuscript exercises a local document workflow. It checks template formatting, editable equations, figure and table numbering, and cross-references. The numerical values are test fixtures and are not research results.",
+  "keywords": [
+    "Document workflow",
+    "Editable equations",
+    "Cross-references"
+  ],
+  "fixture_only": true,
+  "figure_sources": {"1": "response.pdf"}
+}
